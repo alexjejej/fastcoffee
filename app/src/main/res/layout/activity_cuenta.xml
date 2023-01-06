@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:verticalScrollbarPosition="defaultPosition">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Productos en el carrito"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="#5d4037"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:verticalScrollbarPosition="right"
+            app:fontFamily="casual" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/linea" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ListView
+                android:id="@+id/lvorden"
+                android:layout_width="420dp"
+                android:layout_height="500dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="24dp"
+                android:text="Total:"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtprecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView10"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="45dp"
+                android:layout_marginBottom="0dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@+id/btncocina"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="-0dp"
+                android:layout_toStartOf="@+id/btncocina"
+                android:textColor="#ffffff"
+                android:background="@drawable/bk_boton_plano"
+                android:text="Seguir ordenando" />
+
+            <Button
+                android:id="@+id/btncocina"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="161dp"
+                android:layout_marginBottom="6dp"
+                android:onClick="terminarorden"
+                android:textColor="#ffffff"
+                android:background="@drawable/bk_boton_plano"
+                android:text="Terminar orden" />
+
+            <TextView
+                android:id="@+id/txtTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView10"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="-4dp"
+                android:text="0"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+

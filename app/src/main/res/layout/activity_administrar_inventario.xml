@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:verticalScrollbarPosition="defaultPosition">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Administrar inventario"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="#5d4037"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:verticalScrollbarPosition="right"
+            app:fontFamily="casual" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/linea"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Selecciona el ingrediente a registrar, su cantidad en gramos o mililitros y su costo"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            app:fontFamily="casual" />
+
+        <Spinner
+            android:id="@+id/spinnerinventario"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:entries="@array/inventario"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="Cantidad en gramos o mililitros"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            app:fontFamily="casual" />
+
+        <EditText
+            android:id="@+id/etcantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="number" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="Precio del ingrediente"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            app:fontFamily="casual" />
+
+        <EditText
+            android:id="@+id/etprecioi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btninventario"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/bk_boton_plano"
+            android:textSize="15dp"
+            android:text="Registrar" />
+
+    </LinearLayout>
+    </ScrollView>
+</ScrollView>
+

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Administrar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="#5d4037"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:fontFamily="casual" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/linea"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="¿Que desea realizar?"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            app:fontFamily="casual" />
+
+            <Button
+                android:id="@+id/btnverinventario"
+                android:text="Ver inventario"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/bk_boton_plano"
+                />
+            <Button
+                android:id="@+id/btninventario"
+                android:text="Administrar inventario"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff"
+                android:background="@drawable/bk_boton_plano"
+                />
+            <Button
+                android:id="@+id/btnverganancias"
+                android:layout_marginTop="20dp"
+                android:text="Ver ganancias"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:background="@drawable/bk_boton_plano"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

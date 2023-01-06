@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">FastCoffee</string>
+    <string-array name="tiposdeproductos">
+        <item>Seleccione</item>
+        <item>entradas</item>
+        <item>hamburguesas</item>
+        <item>chapatas</item>
+    </string-array>
+    <string-array name="mesas">
+        <item>Mesa:1</item>
+    </string-array>
+    <string-array name="nomesas">
+        <item>""</item>
+    </string-array>
+    <string-array name="seleccionarmesas">
+        <item>Seleccione</item>
+        <item>mesa1</item>
+        <item>mesa2</item>
+        <item>mesa3</item>
+        <item>mesa4</item>
+        <item>mesa5</item>
+        <item>mesa6</item>
+        <item>mesa7</item>
+    </string-array>
+    <string-array name="inventario">
+        <item>Seleccione</item>
+        <item>Alitas de pollo</item>
+        <item>Salsa BBQ</item>
+        <item>Salsa Bufalo</item>
+        <item>Salsa fuego</item>
+        <item>Papas</item>
+        <item>Zanahoria</item>
+        <item>Aderezo</item>
+        <item>Azucar</item>
+        <item>Leche</item>
+        <item>Cafe</item>
+        <item>Helado de Vainilla</item>
+        <item>Licor</item>
+        <item>Canela</item>
+        <item>Nata</item>
+        <item>Cacao</item>
+        <item>Vainilla</item>
+        <item>Crema</item>
+        <item>Caramelo</item>
+        <item>Tiramisu</item>
+        <item>Rompope</item>
+        <item>Cajeta</item>
+        <item>Amaretto</item>
+        <item>Macadamia</item>
+        <item>Chai de vainilla</item>
+        <item>Chai de mango</item>
+        <item>Agua</item>
+        <item>Chocolate</item>
+        <item>Chocolate blanco</item>
+        <item>Sal</item>
+        <item>Limon</item>
+        <item>Refresco</item>
+        <item>Agua mineral</item>
+        <item>Naranja</item>
+        <item>Sangria</item>
+        <item>Ron</item>
+        <item>Vino tinto</item>
+        <item>Vermouth</item>
+        <item>Manzana</item>
+        <item>Cerveza</item>
+        <item>Clamato</item>
+        <item>Crema de coco</item>
+        <item>Jugo de pina</item>
+        <item>Agua</item>
+        <item>Fresas</item>
+        <item>Moras</item>
+        <item>Mango</item>
+        <item>Jarabe de manzana</item>
+        <item>Jarabe de maracuya</item>
+        <item>Jarabe de mango</item>
+        <item>Masa de crepa</item>
+        <item>Peperoni</item>
+        <item>Salami</item>
+        <item>Queso manchego</item>
+        <item>Lechuga</item>
+        <item>Jamon</item>
+        <item>Piña</item>
+        <item>Pamela</item>
+        <item>Pollo</item>
+        <item>Tocino</item>
+        <item>Pierna</item>
+        <item>Atun</item>
+        <item>Aceitunas</item>
+        <item>Lechera</item>
+        <item>Mermelada</item>
+        <item>Zarzamora</item>
+        <item>Queso crema</item>
+        <item>Nutella</item>
+        <item>Helado de chocolate</item>
+        <item>Nuez</item>
+        <item>Platano</item>
+        <item>Pan de hamburquesa</item>
+        <item>Carne de hamburquesa</item>
+        <item>Chorizo</item>
+        <item>Galletas</item>
+        <item>Pastel</item>
+        <item>Brownie</item>
+
+
+    </string-array>
+    <string-array name="año">
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+    </string-array>
+    <string-array name="mes">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string-array name="dia">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+</resources>

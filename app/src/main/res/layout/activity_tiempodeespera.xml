@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tiempodeespera">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="Tu pedido está siendo preparado"
+        android:textColor="#5d4037"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/linea" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvpedido"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="100dp"
+                    android:text="Tiempo de espera aproximado de:"
+                    android:textSize="24sp"
+                    app:fontFamily="casual"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="250dp"
+                    android:gravity="center"
+                    android:text="Minutos" />
+
+                <TextView
+                    android:id="@+id/txtcronometro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="200dp"
+                    android:gravity="center"
+                    android:text="15:00"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¿Olvidaste algo?"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="300dp"
+                    android:textStyle="bold"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="350dp"
+                    android:onClick="ordenar"
+                    android:text="¡Ordena aquí!"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/bk_boton_plano"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¿Te hace falta algo?"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="500dp"
+                    android:textStyle="bold"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnservilletas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="550dp"
+                        android:background="@drawable/bk_boton_plano"
+                        android:text="Servilletas"
+                        android:textColor="#ffffff" />
+
+                    <Button
+                        android:id="@+id/btncubiertos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="550dp"
+                        android:background="@drawable/bk_boton_plano"
+                        android:text="Cubiertos"
+                        android:textColor="#ffffff" />
+
+                    <Button
+                        android:id="@+id/btncuenta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="550dp"
+                        android:background="@drawable/bk_boton_plano"
+                        android:text="La cuenta"
+                        android:textColor="#ffffff" />
+
+                    <Button
+                        android:id="@+id/btnmesero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="540dp"
+                        android:background="@drawable/bk_boton_plano"
+                        android:text="Que venga el mesero"
+                        android:textColor="#ffffff" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="O escribe aquí lo que te falte"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="605dp"
+                    android:textSize="20sp" />
+
+
+                <EditText
+                    android:id="@+id/etmensaje"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="650dp"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/btnmensaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="700dp"
+                    android:text="Enviar"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/bk_boton_plano"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¿Deseas pedir la cuenta?"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="800dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnterminarorden"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="850dp"
+                    android:text="Da click aquí"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/bk_boton_plano"/>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

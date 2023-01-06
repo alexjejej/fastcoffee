@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "391201753139",
+    "firebase_url": "https://fastcoffee-3ca4c.firebaseio.com",
+    "project_id": "fastcoffee-3ca4c",
+    "storage_bucket": "fastcoffee-3ca4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391201753139:android:5da7e19f3887be60",
+        "android_client_info": {
+          "package_name": "com.example.alejandro.fastcoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391201753139-uht083u73cfrt8ld031nehjpig9cim6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alejandro.fastcoffee",
+            "certificate_hash": "f4c0a68372d23670fbc4b2bc190039cb2ad0b880"
+          }
+        },
+        {
+          "client_id": "391201753139-94ogvn6ls8bv9slsi52q3pbvgsljdl46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5CWsH9RHcz5j-8rAzREgw7hmw0h-CdoI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391201753139-94ogvn6ls8bv9slsi52q3pbvgsljdl46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

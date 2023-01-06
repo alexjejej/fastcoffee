@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alejandro.fastcoffee">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".utilidades.cuenta2"></activity>
+        <activity android:name=".utilidades.inventarioentradas" />
+        <activity android:name=".mesero.Ayuda" />
+        <activity android:name=".dueño.graficas" />
+        <activity android:name=".dueño.VerInventario" />
+        <activity android:name=".utilidades.OrdenTerminada" />
+        <activity android:name=".dueño.Ganancias" />
+        <activity android:name=".dueño.AdministrarInventario" />
+        <activity android:name=".dueño.agregarproducto" />
+        <activity android:name=".cliente.empezarpedido" />
+        <activity android:name=".cliente.bebidas.refresco" />
+        <activity android:name=".cliente.bebidas.chai" />
+        <activity android:name=".cliente.bebidas.late" />
+        <activity android:name=".cliente.bebidas.choco" />
+        <activity android:name=".cliente.bebidas.cappucinos" />
+        <activity android:name=".cliente.bebidas.Expresos" />
+        <activity android:name=".cliente.bebidas.cocteles" />
+        <activity android:name=".cliente.platillos.otros" />
+        <activity android:name=".cliente.platillos.crepasaladas" />
+        <activity android:name=".cliente.platillos.crepasdulces" />
+        <activity android:name=".cliente.platillos.poestres" />
+        <activity android:name=".cliente.platillos.sushi" />
+        <activity android:name=".cocinam" />
+        <activity android:name=".cliente.mesacliente" />
+        <activity android:name=".cliente.platillos.chapatas" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".cliente.bebidas.bebidas" />
+        <activity android:name=".cliente.bebidas.Smoothies" />
+        <activity android:name=".cliente.bebidas.SodasItalianas" />
+        <activity android:name=".cliente.Cliente" />
+        <activity android:name=".cocina.Cocinero" />
+        <activity android:name=".cliente.platillos.platofuerte" />
+        <activity android:name=".dueño.Dueno" />
+        <activity android:name=".cliente.platillos.hamburguesas" />
+        <activity android:name=".cliente.platillos.entradas" />
+        <activity android:name=".dueño.LoginDueno" />
+        <activity android:name=".mesero.Mesero" />
+        <activity android:name=".utilidades.Cuenta" />
+        <activity android:name=".tiempodeespera" />
+    </application>
+
+</manifest>
